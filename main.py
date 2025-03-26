@@ -37,7 +37,7 @@ def get_reliable_emotion(analysis):
 
 def get_llm_insight(emotion, confidence):
     """Get concise scientific explanation"""
-    prompt = f"Provide a 1-sentence scientific explanation for a '{emotion}' facial expression"
+    prompt = f"Provide a scientific explanation for a '{emotion}' facial expression"
     
     response = groq_client.chat.completions.create(
         messages=[{"role": "user", "content": prompt}],
