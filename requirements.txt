@@ -1,7 +1,8 @@
 streamlit 
-mediapipe 
 opencv-python 
 groq 
 numpy 
 python-dotenv 
 Pillow
+deepface
+tf-keras
